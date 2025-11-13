@@ -1,5 +1,13 @@
+lunch single instance with security group and deploy the two different websites with same IPv4 address with different port number
+
+git clone https://github.com
+git clone https://githubtwo.com 
+
 sudo mkdir -p /var/www/site1
 sudo mkdir -p /var/www/site2
+
+(go inside the folder) cp * /var/www/site1
+(go inside the folder) cp * /var/www/site2
 
 sudo nano /etc/nginx/sites-available/site1
 sudo nano /etc/nginx/sites-available/site2
